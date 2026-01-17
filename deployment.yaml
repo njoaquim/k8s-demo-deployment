@@ -4,6 +4,8 @@ metadata:
   name: demo-deployment
   labels:
     patch-post-sync: "true"
+  annotations:
+    argocd.argoproj.io/sync-wave: "-1"
 spec:
   replicas: 2
   selector:
