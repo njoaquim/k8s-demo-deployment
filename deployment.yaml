@@ -6,6 +6,7 @@ metadata:
     patch-post-sync: "true"
   annotations:
     argocd.argoproj.io/sync-wave: "-1"
+    resize-container-resources/nginx-container: "true"
 spec:
   replicas: 2
   selector:
