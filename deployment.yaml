@@ -16,8 +16,8 @@ spec:
       labels:
         app: demo-app
       annotations:
-        resize-container-resources/nginx-container: "true"
-        resize-container-ratio/nginx-container: "50%"
+        resize-container-resources: "true"
+        resize-container-ratio: "50%"
     spec:
       containers:
       - name: nginx-container
