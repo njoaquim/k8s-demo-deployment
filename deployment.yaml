@@ -18,6 +18,7 @@ spec:
       annotations:
         resize-container-resources: "true"
         resize-container-cpu-limits: "200m"
+        resize-container-cpu-requests: "50m"
     spec:
       containers:
       - name: nginx-container
