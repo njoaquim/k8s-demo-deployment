@@ -17,8 +17,6 @@ spec:
         app: demo-app
       annotations:
         resize-container-resources: "true"
-        resize-container-cpu-ratio/nginx-container: "50%"
-        resize-container-cpu-limits/nginx-container: "150m"
     spec:
       containers:
       - name: nginx-container
