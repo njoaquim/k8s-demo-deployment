@@ -19,7 +19,6 @@ spec:
         resize-container-resources: "true"
         resize-container-cpu-ratio/nginx-container: "50%"
         resize-container-cpu-limits/nginx-container: "150m"
-        resize-container-cpu-requests/nginx-container: "100m"
     spec:
       containers:
       - name: nginx-container
