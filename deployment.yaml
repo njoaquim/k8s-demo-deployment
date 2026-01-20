@@ -17,6 +17,7 @@ spec:
         app: demo-app
       annotations:
         resize-container-resources: "true"
+        resize-container-cpu-limits: "200m"
     spec:
       containers:
       - name: nginx-container
