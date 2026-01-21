@@ -33,3 +33,9 @@ spec:
           requests:
             memory: 100Mi
             cpu: 200m
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 80
+          initialDelaySeconds: 10
+          periodSeconds: 3
